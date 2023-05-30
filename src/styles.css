@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+	overflow: hidden;
+}
+canvas {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+
+}
+
+
+#map {
+  position: absolute;
+  top: 51%;
+  left: 30%;
+  transform: translate(-55%, -50%);
+  width: 330px;
+  height: 60%;
+  visibility: hidden;
+  display: flex;
+  border: 10px rgb(40, 38, 38) solid;
+}
+
+
+.box {
+    position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ background: transparent;
+
+
+    
+
+}
